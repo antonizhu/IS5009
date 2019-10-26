@@ -42,7 +42,7 @@ var json = {
                           "text": "35% to 70%"
                       }, {
                           "value": 5,
-                          "text": "GLess than 35%"
+                          "text": "Less than 35%"
                       }
                     ]
                 }, {
