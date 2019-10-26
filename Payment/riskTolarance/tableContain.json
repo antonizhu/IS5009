@@ -1,0 +1,42 @@
+[
+    {
+        "Score": "30 points or less",
+        "Description": [
+            "Aggressive",
+            "An Aggressive Investor is prepared to accept higher risks in order to obtain greater",
+            "investment returns with a potential to lose all or more of his capital. An Aggressive",
+            "Investor is comfortable with investments that are more volatile and bear a higher risk",
+            "of loss of capital. An Aggressive Investor has a high appetite for speculative trading."
+
+        ]
+    },
+    {
+        "Score": "31 - 47 points",
+        "Description": [
+            "Balanced",
+            "A Balanced Investor seeks a mixture of capital growth and regular income from his",
+            "investments. A Balanced Investor is therefore prepared to accept moderate amounts",
+            "of risk to earn moderate potential returns. A Balanced Investor accepts that there",
+            "is a real potential to lose at least part of his capital in seeking moderate returns. A",
+            "Balanced Investor appreciates that there will be, even in times of stability, occasional",
+            "periods of volatility and risk of loss of capital. A Balanced Investor may engage in",
+            "speculative trading from time to time and particularly accepts that when times are",
+            "uncertain, trading is more likely to be regarded as more inherently speculative."
+        ]
+    },
+    {
+        "Score": "48 points or more",
+        "Description": [
+            "Conservative",
+            "You are a Conservative Investor. You seek capital preservation and a safe regular",
+            "income is a priority over capital growth. You should seriously consider whether you",
+            "should be investing other than in fixed deposit.",
+            "A Conservative Investor seeks primarily capital preservation. A Conservative Investor",
+            "seeks principally a safe and regular income as a priority over capital growth. A",
+            "Conservative Investor should seriously consider whether he should be putting his",
+            "money in investments other than in fixed deposit. A Conservative Investor will not",
+            "be allowed to trade Specified Investment Products (“SIPs”)* with us as there are",
+            "currently no SIPs which bear little or no risk of capital loss"
+        ]
+    }
+  ]
