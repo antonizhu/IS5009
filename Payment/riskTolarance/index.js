@@ -233,7 +233,7 @@ var json = {
             ]
         }
     ],
-    "completedHtml": "<p><h4>Thank you for sharing this information with us.</h4></p><p>Your total score is: <b>"+total_score+"</b></p>"+
+    "completedHtml": "<p><h4>Thank you for sharing this information with us.</h4></p><p>Your total score is: <b id='score'>"+total_score+"</b></p>"+
     "<p>Based on the score from the questions you have answered in the previous section of this questionnaire, you have been determined to be the following type of investor</p>"+
     "<table id="+'risk_tolerance_table'+" align="+'center'+"><thead><th>Score</th><th>Description</th></thead>"+
     "<tbody><tr><td>30 points or less</td><td align="+'left'+"><b>Aggressive:</b><br/><br/>"+
@@ -265,10 +265,11 @@ var json = {
 window.survey = new Survey.Model(json);
 
 survey.onComplete.add(function (result, total_score) {
-        //total_score = result.data.investment_objectives+result.data.risk_capital_percentage+result.data.saving_duration+result.data.inflation_effects
-        document.querySelector('#surveyResult').textContent = "Result JSON:\n" + JSON.stringify(result.data, null, 3) + typeof total_score.toString();
         total_score = result.data.investment_objectives+result.data.risk_capital_percentage+result.data.saving_duration+result.data.inflation_effects;
-        return total_score;
+		document.querySelector('#score').textContent = total_score.toString();
+        document.querySelector('#surveyResult').textContent = "Result JSON:\n" + JSON.stringify(result.data, null, 3) + " total score: "+total_score.toString();
+        
+		return total_score;
     });
     
 
